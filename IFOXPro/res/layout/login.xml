@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <!-- 登录title -->
+    
+  	<LinearLayout 
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent"
+  	    android:background="#fff"
+  	    android:orientation="vertical" >
+  	    <LinearLayout
+  	        android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/mainbg" >
+  	    
+	  	    <ImageView
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:background="@drawable/back_news_text"
+		          android:onClick="back" />
+	  	    
+	  	    <TextView
+	              android:id="@+id/other_login_title"
+	              android:layout_width="fill_parent"
+	              android:layout_height="wrap_content"
+	              android:layout_gravity="center_vertical"
+	              android:layout_weight="1"
+	              android:text="@string/other_login_title"
+	              android:textColor="#fff"
+	              android:textSize="20dip" />
+	 
+  		</LinearLayout>
+  	
+  	<!-- 用户名 -->
+  	
+  		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/night_biz_pc_account_usr_icon" />
+
+            <EditText
+                android:id="@+id/other_login_username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fouse_write"
+                android:hint="@string/hint_username"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+        
+  		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/night_biz_pc_account_usr_icon" />
+
+            <EditText
+                android:id="@+id/other_login_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fouse_write"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword" />
+        </LinearLayout>
+        
+  	<!-- 记住密码选项 -->
+  	
+  		<LinearLayout 
+  		    android:layout_width="fill_parent"
+  		    android:layout_height="wrap_content"
+  		    android:orientation="horizontal">
+            
+  		    <CheckBox
+  		        android:id="@+id/checkbox"
+  		        android:layout_width="wrap_content"
+  		        android:layout_height="wrap_content"
+  		        android:checked="true"
+  		        android:text="记住密码"/>
+  		    
+  		    <TextView 
+  		        android:id="@+id/txtview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+  		    
+  		</LinearLayout>
+        
+	<!-- 注册  登录Button -->
+		
+		<LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:orientation="horizontal" >
+
+            
+            <Button
+                android:id="@+id/other_login_login"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_weight="1"
+                android:background="@drawable/biz_pc_account_login_btn_normal"
+                android:onClick="login"
+                android:text="@string/login"
+                android:textColor="#fff" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+  	
+</FrameLayout>

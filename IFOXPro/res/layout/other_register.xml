@@ -1,0 +1,280 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1" 
+    android:orientation="vertical"
+     >
+    
+<LinearLayout 
+  	    android:layout_width="match_parent"
+  	    android:layout_height="match_parent"
+  	    android:background="#fff"
+  	    android:orientation="vertical" >
+  	    <LinearLayout
+  	        android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/mainbg" >
+  	    
+  	    <ImageView
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:background="@drawable/back_news_text"
+	          android:onClick="back" />
+  	    
+  	    <TextView
+              android:id="@+id/other_register"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_weight="1"
+              android:text="@string/register_titile"
+              android:textColor="#fff"
+              android:textSize="20dip" />
+	 
+  	</LinearLayout>
+ <LinearLayout 
+      	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@color/lightblue" 
+    	android:orientation="vertical"
+    	>
+ 
+ <LinearLayout 
+      android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="40dp"
+    android:text="@string/register_username"
+    >
+    
+</TextView>
+
+<EditText
+    android:id="@+id/register_username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:ems="10"
+    android:textColor="@color/orange"
+    android:inputType="textPersonName" 
+
+    />
+</LinearLayout>
+<LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="@string/register_password"
+    >
+    
+</TextView>
+
+<EditText
+    android:id="@+id/register_password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="10dp"
+    android:ems="10"
+    android:inputType="numberPassword"/>"
+    
+</LinearLayout>
+<LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="@string/register_ipassword"
+    >
+    
+</TextView>
+
+<EditText
+    android:id="@+id/register_ipassword"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="18dp"
+    android:layout_marginTop="10dp"
+    android:ems="10"
+    android:inputType="numberPassword"/>
+    
+</LinearLayout>
+
+<LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="@string/register_school"
+    >
+   
+</TextView>
+
+<EditText 
+    android:id="@+id/register_school"    
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="25dp" 
+    android:layout_marginTop="10dp" 
+    android:ems="10" 
+    android:inputType="text" />"
+    
+</LinearLayout>
+<LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="@string/register_phonenumber"
+    >
+    
+</TextView>
+
+<EditText
+    android:id="@+id/register_phonenumber"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:ems="10"
+    android:inputType="number"/>"
+    
+</LinearLayout>
+<LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="@string/register_acm_id"
+    >
+    
+</TextView>
+
+<EditText
+    android:id="@+id/register_acm_id"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="10dp"
+    android:ems="10"
+    android:inputType="number"/>
+    
+</LinearLayout>
+<LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="@string/register_email"
+    >
+    
+</TextView>
+
+<EditText
+    android:id="@+id/register_email"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="10dp"
+    android:ems="10"
+    android:inputType="textEmailAddress"/>"
+    
+</LinearLayout>
+<LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="40dp"
+    android:text="@string/register_indentify"
+    >
+    
+</TextView>
+
+<EditText
+    android:id="@+id/register_identify"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="10dp"
+    android:ems="10"
+    android:inputType="text"/>
+    
+</LinearLayout>
+<LinearLayout 
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button 
+        android:id="@+id/register"
+        android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginLeft="40dp"
+         android:layout_marginTop="30dp"
+         android:text="@string/register"
+        android:textColor="@color/red"
+        />
+    <Button 
+        android:id="@+id/cancel"
+        android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginLeft="100dp"
+         android:layout_marginTop="30dp"
+         android:text="@string/reg_cancel"
+          android:textColor="@color/orange"
+        />
+</LinearLayout>
+ <ProgressBar
+        android:id="@+id/pb_register"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

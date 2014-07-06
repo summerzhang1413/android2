@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" 
+    android:background="#dacfcb">
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dip"
+		android:background="@drawable/mainbg" >
+		<ImageView
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:background="@drawable/back_news_text"
+	          android:onClick="back" />
+  	    <TextView
+              android:id="@+id/no2"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_weight="1"
+              android:text="@string/web"
+              android:textColor="#fff"
+              android:textSize="20dip" />
+  	</LinearLayout>
+    <ScrollView 
+		android:id="@+id/myscroll3"	
+		android:layout_width="fill_parent"	
+		android:layout_height="fill_parent">
+		<LinearLayout 
+			android:id="@+id/mylinear3"	
+			android:orientation="vertical" 	
+			android:layout_width="fill_parent"	
+			android:layout_height="wrap_content">
+			<ImageView
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="3dip"
+			    android:src="@drawable/p6" />
+
+		    <TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="@string/web3"
+			    android:gravity="center_horizontal"
+			    android:textSize="20dip"
+			    android:padding="10dip"/>
+		    <View  
+		       android:layout_width="fill_parent"  
+		       android:layout_height="1px"
+		       android:background="?android:attr/listDivider"/>
+		    <ImageView 
+		        android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:padding="3dip"
+			    android:src="@drawable/p3"/>
+		    <TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="@string/web1"
+			    android:gravity="center_horizontal"
+			    android:textSize="20dip"
+			    android:padding="10dip"/>
+		    <View  
+		       android:layout_width="fill_parent"  
+		       android:layout_height="1px"
+		       android:background="?android:attr/listDivider"/>
+		    <ImageView 
+		        android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/p5"/>
+		    <TextView 
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:text="@string/web2"
+			    android:gravity="center_horizontal"
+			    android:textSize="20dip"
+			    android:padding="10dip"/>   
+		    <View  
+		       android:layout_width="fill_parent"  
+		       android:layout_height="1px"
+		       android:background="?android:attr/listDivider"/>
+		    
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

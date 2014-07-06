@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView 
+        android:id="@+id/linkman"
+        android:textSize="20dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dip"/>
+    <TextView 
+        android:id="@+id/tel"
+        android:textSize="20dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dip"/>
+    <ImageView 
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip"
+        android:layout_weight="2"
+        android:src="@drawable/tel"/>
+    <ImageView 
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip"
+        android:layout_weight="2"
+        android:src="@drawable/message"/>
+</LinearLayout>
+    
+

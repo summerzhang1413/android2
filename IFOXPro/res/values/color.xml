@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  	<color name="lightwhite">#ddd</color>
+    <color name="topview">#9ee7d9</color>
+    <color name="white">#fff</color>
+    <color name="topcolor1">#5ca7ba</color>
+    <color name="topcolor2">#a6cee3</color>
+    <color name="blue">#0000CD </color>
+    <color name="lightblue">#87CEFA </color>
+    <color name="orange">#FF8C00 </color>
+    <color name="red"> #DC143C </color>
+    <color name="viewpager"> #fffaf0 </color>
+
+
+</resources>
